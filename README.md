@@ -1,4 +1,4 @@
-# bankmarketing
+# Bankmarketing
 Bank Marketing Campaign using Classification 
 
 ### Data Understanding
@@ -43,7 +43,33 @@ Output variable (desired target):
 ```
 
 
+## Business Objective
 
+The main aim of this Machine Learning analysis is to pinpoint a model that effectively predicts the success of a contact - whether a client will subscribe to the deposit. By accomplishing this, we can significantly improve campaign efficiency by identifying crucial characteristics that influence success. Consequently, this enables better resource management and the selection of a high-quality, cost-effective potential customer base.
+
+To achieve this objective, we compare the performance of various algorithms including k-nearest neighbors, logistic regression, decision trees, and support vector machines. By evaluating the effectiveness of each model, we can determine which one best suits our needs and provides the most accurate predictions regarding client subscription to the deposit.
+
+## Approach
+The project will adhere to the CRISP-DM (Cross-Industry Standard Process for Data Mining) methodology. Our objective is to identify the model with the highest accuracy, while also considering its interpretability. Understanding the factors influencing a client's decision can offer valuable insights for the business.
+
+The process will involve the following stages:
+
+Data Understanding: This phase involves gaining familiarity with the dataset, its structure, and its features. Understanding the data is crucial for selecting appropriate preprocessing techniques and modeling strategies.
+
+Data Preparation: In this phase, we'll clean the data, handle missing values, and perform feature engineering if necessary. Data preprocessing plays a vital role in ensuring the quality and reliability of our model.
+
+Modeling: Here, we'll develop and train machine learning models using various algorithms such as k-nearest neighbors, logistic regression, decision trees, and support vector machines. We'll assess each model's performance and select the one that best meets our criteria.
+
+Evaluation: Finally, we'll evaluate the selected models based on their accuracy and interpretability. We'll also consider additional metrics such as precision, recall, and F1-score to comprehensively assess model performance.
+
+The details of each stage, along with code implementation and analysis, can be found in the Python notebook: prompt_III.ipynb.
+
+The dataset used for this project is available in the following files:
+
+/data/bank-additional-full.csv
+/data/bank-additional-names.txt
+/data/bank-additional.csv (subset of the full dataset)
+Additionally, we'll reference the accompanying article for more insights into the dataset's features and context. This comprehensive approach ensures thorough exploration, analysis, and selection of the most suitable model for predicting client subscription to the deposit.
 
 
 ## Results
